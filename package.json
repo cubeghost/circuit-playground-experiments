@@ -1,0 +1,17 @@
+{
+  "name": "circuit_playground_demos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "beep.js",
+  "dependencies": {
+    "johnny-five": "^0.9.49",
+    "node-pixel": "^0.6.1",
+    "chroma-js": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "beep": "node beep.js"
+  },
+  "author": "Alex Baldwin <alex@bldwn.co> (http://bldwn.co/)",
+  "license": "ISC"
+}
