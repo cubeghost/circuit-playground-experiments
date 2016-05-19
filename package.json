@@ -1,8 +1,9 @@
 {
-  "name": "circuit_playground_demos",
+  "name": "circuit_playground_experiments",
+  "private": true,
   "version": "1.0.0",
-  "description": "",
-  "main": "beep.js",
+  "description": "experiments with the adafruit circuit playground",
+  "main": "color_rotate.js",
   "dependencies": {
     "johnny-five": "^0.9.49",
     "node-pixel": "^0.6.1",
@@ -10,7 +11,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "beep": "node beep.js"
+    "beep": "node beep.js",
+    "temperature": "node temperature.js"
   },
   "author": "Alex Baldwin <alex@bldwn.co> (http://bldwn.co/)",
   "license": "ISC"
